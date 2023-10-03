@@ -1,8 +1,40 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
+}
+    
+#tablas {
+    text-align: center;
 }
 
+#tablas2 {
+    background-color: #154360; /* Cambia el color de fondo según tus preferencias */
+    /* Ajusta el espaciado alrededor de la lista */
+}
+
+#tablas3 {
+    background-color: #1F618D;
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Espaciado entre elementos */
+    padding: 0.5em;
+
+}
+
+#texen{
+    background-color:#1F618D;
+    text-decoration: none;
+    color: white;
+    font-weight:50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#deco{
+    padding: 0.5em;
+    background: #1F618D;
+
+}
 #contenedor{
     width: 1200px;
     height: 1000px;
@@ -15,7 +47,27 @@
     height: 20%;
     background: #154360;
 }
-
 #imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background: #1F618D ;
+    background-size: cover;
     
+
 }
+
+#imagenencabe{
+    margin: 0.5em auto;
+    max-width: 100%; /* Asegura que la imagen no se extienda más allá de su contenedor */
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 50% 95%, 0 80%);
+    border: 5px solid white ;
+}
+
+#contenido{
+    background: white;
+    height: 65%;
+
+}
+
