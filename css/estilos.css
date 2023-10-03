@@ -1,16 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #134E4F;
 }
     
-#tablas {
-    text-align: center;
-}
 
 #tablas2 {
-    background-color: #154360; /* Cambia el color de fondo según tus preferencias */
-    /* Ajusta el espaciado alrededor de la lista */
+    background-color: #154360; 
 }
 
 #tablas3 {
@@ -26,8 +22,9 @@
     background-color:#1F618D;
     text-decoration: none;
     color: white;
-    font-weight:50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em; 
 }
 
 #deco{
@@ -36,11 +33,13 @@
 
 }
 #contenedor{
-    width: 1200px;
-    height: 1000px;
+    width: 1300px;
+    height: 1200px;
     background: #1F618D;
-    margin: 0.5em auto;
+    margin: 2em auto;
     padding: 0.5em;
+    border: 5px solid white;
+    overflow: hidden;
 }
 
 #encabezados{
@@ -67,7 +66,112 @@
 
 #contenido{
     background: white;
-    height: 65%;
+    height: 60%;
+    display: flex;
 
 }
 
+#menu{
+    background:#1F618D;
+    flex: 0 0 30%;
+    justify-content: space-around;
+    border: 10px ;
+
+    border: 1px solid whitesmoke;
+}
+
+#menup{
+    justify-content: center;
+    color: white;
+    background: #1F618D;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+    flex: 0 0 30%;
+    font-size: 2em; 
+
+    
+
+}
+#contenidos{
+    background: #154360;
+    flex: 0 0 70%;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+}
+
+#tablas5{
+    width: 100%;
+    height: 98.8%;
+}
+
+#tablas4{
+    list-style: none;
+    width: 100%;
+    height: 100%; /* Utiliza flexbox para que los elementos de la lista se distribuyan horizontalmente */
+    padding: 0; /* Elimina el relleno por defecto de la lista */
+    background:#1F618D;
+    
+}
+
+#texts{
+    text-decoration: none;
+    color: white;
+    background: #1F618D;
+    width: 100%;
+    height: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    
+}
+
+#tablasdeco{
+    flex: auto; /* Hace que cada elemento li ocupe todo el espacio disponible */
+    border: 1px solid whitesmoke; /* Añade un borde alrededor de cada cuadro */
+    width: 100%;
+    height: 24%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1,4em; 
+    
+}
+#titulos{
+    background: #154360;
+    text-align: center;
+    color: white;
+    border: 29px solid #154360;
+}
+
+#textocontenido{
+    background: #154360;
+    color: white;
+    font-family: new 'Times New Roman', Times, serif;
+    border: 11px solid #154360;
+    
+}
+
+#imagencont{
+    background: #154360;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34%;
+    background-size: cover;
+}
+
+ #contenidotec{
+    background: #154360;
+    max-width: 20%;
+    margin: 0.5em auto;
+}
+
+#piedepagina{
+    background: #154360;
+    
+}
+
+#footer{
+    background: #1F618D;
+    height: 20%;
+}
